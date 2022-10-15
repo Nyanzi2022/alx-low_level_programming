@@ -16,8 +16,8 @@ int main(void)
 	ldigit = n % 10;
 	if (ldigit > 5)
 	{
-		printf("last digit of 98 is 8 and is greater than 5\n",
-				n, ldigit);
+		printf("last digit of %d is %d and is greater than 5\n", n, ldi
+				git);
 	}
 	else if (ldigit == 0)
 	{
